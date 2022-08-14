@@ -1,0 +1,8 @@
+main: rip.stealth.lifesteal.LifeSteal
+name: LifeSteal
+version: 1.0-DEV
+author: Stealth
+loadbefore:
+  - PlaceholderAPI
+softdepend:
+  - PlaceholderAPI

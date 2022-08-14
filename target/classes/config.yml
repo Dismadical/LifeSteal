@@ -1,0 +1,49 @@
+# Stealth LifeSteal Core
+# Version: 1.0.0
+# For help join discord.gg/stealth
+
+# Heart Settings
+
+Starting-Hearts: 10
+Max-Hearts: 50
+Eliminate-Commands:
+  - 'ban %player% 7h You have lost too many hearts. You have been banned for 7 hours.'
+Purge-Commands:
+  - 'unban %player% Eliminated Players Purged'
+
+# Combat Settings
+
+Hearts-Gained-Per-Kill: 1
+Hearts-Lost-Per-Death: 1
+Regain-Hearts-After-Kill: true
+All-Deaths-Lose-Hearts: true # If true, all settings under do not matter
+Player-Caused-Deaths: true
+Projectile-Caused-Deaths: true
+
+# Craftable Heart Settings
+Craftable-Hearts:
+  Enabled: true # If false, ignore below settings
+  Delay:
+    Enabled: true # Whether there is a delay to crafting the item
+    Time: 10 # Time in Minutes
+  Given-Item:
+    Material: 'DIAMOND'
+    Amount: 1
+    Name: '&aCraftable Heart'
+    Lore:
+      - '&aRight click to gain a heart.'
+    Hearts-Gained-On-Use: 1
+  Recipe:
+    Ingredients:
+      'X': # You can add or remove ingredients and the names can be anything just make sure they correspond to the recipe
+        Material: 'DIAMOND'
+      'Y':
+        Material: 'EMERALD'
+      'Z':
+        Material: 'IRON_INGOT'
+    Recipe: # DO NOT ADD LINES AND THE SPACES ARE THE AREAS WITH NO ITEMS
+      - ' X ' # Line 1
+      - ' Y ' # Line 2
+      - ' Z ' # Line 3
+
+

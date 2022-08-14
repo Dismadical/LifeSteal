@@ -1,0 +1,16 @@
+# Stealth LifeSteal Core
+# Version: 1.0.0
+# For help join discord.gg/stealth
+
+# Death Messages
+Death-Messages: true # If false, ignore below settings
+Announce-Deaths:
+  Enabled: true
+  Message: '&c%player% has been killed and now has %hearts% hearts.'
+Death-Messages-To-Player:
+  Enabled: true
+  Message: '&cYou have been killed and now have %hearts% hearts.'
+Kill-Messages-To-Player:
+  Enabled: true
+  Message: '&aYou have killed %player% and now have %hearts% hearts.'
+
